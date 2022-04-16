@@ -30,18 +30,23 @@ public class MemberController {
 		return "join";
 	}
 
+	//if((dbmember != null) && (dbmember.getUserId().equals(member.getUserId()))) {
+
 	@PostMapping("login/do")
 	  public String loginResult(@RequestParam Member member, HttpServletRequest req) {
 	        // 입력받은 ID와 PW가 DB에 있으면 아래코드 없으면 else 다시 로그인처리
 			Member dbmember = memberService.memberfind(member.getUserId());
-			if((dbmember == null) && (dbmember.getUserId().equals(member.getUserId()))) {
-			
+			if((dbmember != null)){
+			//HttpServletRequest의 객체인 req의 메서드 getSession을 session객체에 주입
 			HttpSession session = req.getSession();
-	        
+			//HttpSession.setAttribute(String name, Object value)
 	        session.setAttribute("model", member); 
 	        System.out.println("로그인 결과");
+	        return "result";
+			}else {
+			return "index";
 			}
-			return "result";
+			
 	    }
 
 }

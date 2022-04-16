@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>result</h1>
+
+	
+	<!-- th:object는 form 태그에 작성하여 해당 태그가 Model 객체에서 넘어온 객체의 필드값들을 참조하도록 만든다. -->
+		
+			<span th:text="${session.userid}"></span>
+			<span th:text="${session.password}"></span>
+
+
+</body>
+</html>

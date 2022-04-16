@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="TestMembership/src/main/java/|회원가입/src/main/java/|로그인 로그아웃/sbb/src/main/java/|TestMembership/src/test/java/|회원가입/src/test/java/|로그인 로그아웃/sbb/src/test/java/|hello/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="로그인 로그아웃/sbb/src/main/java"/>
+	<classpathentry kind="src" path="로그인 로그아웃/sbb/src/test/java"/>
+	<classpathentry kind="src" path="회원가입/src/main/java"/>
+	<classpathentry kind="src" path="회원가입/src/test/java"/>
+	<classpathentry kind="src" path="hello/src"/>
+	<classpathentry kind="src" path="TestMembership/src/main/java"/>
+	<classpathentry kind="src" path="TestMembership/src/test/java"/>
+	<classpathentry kind="output" path="hello/bin"/>
+</classpath>

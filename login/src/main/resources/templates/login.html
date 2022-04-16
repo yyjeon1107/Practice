@@ -5,10 +5,9 @@
 </head>
 <body>
 <h1>로그인</h1>
-   	<form th:object="${member}" 
-   	action="/member/login/do" method="post">
+   	<form 	action="/member/login/do" method="post">
 		<span class='tit'>ID : </span>
-		<input type="text" name="userId" id="userId">
+		<input type="text"  name="userId" id="userId">
 		<span class='tit'>Password : </span>
 		<input type="password" name="password" id="password">
 		<button>로그인</button>
