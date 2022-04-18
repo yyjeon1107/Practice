@@ -14,8 +14,6 @@ public class DemoApplication {
 		System.out.println("hi");
 		System.out.println("hello");
 		System.out.println("hihello");
-		System.out.println("merge fail");
-		
 		}
 }
 
