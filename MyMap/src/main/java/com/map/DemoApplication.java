@@ -10,7 +10,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("hello merge test");
 		System.out.println("hello2");
-		System.out.println("hello3")
+		System.out.println("hello3");
+		System.out.println("hello4");
 		
 	}
 
