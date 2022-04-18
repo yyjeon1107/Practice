@@ -26,4 +26,8 @@ public class MyController {
 			return "/view/kakao";
 		}
 		
+		@GetMapping("/daum")
+		public String MapTest05() {
+			return "/view/daum";
+		}
 }
