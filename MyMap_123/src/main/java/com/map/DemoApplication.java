@@ -12,6 +12,7 @@ public class DemoApplication {
 		System.out.println("success!");
 		System.out.println("please"ㅁㄴㅇㄻㅊㅇㅇㅇㄴㄴㅇㄻㄴㅇㄻ);
 		System.out.println("hi");
+		System.out.println("hello");
 		}
 }
 
