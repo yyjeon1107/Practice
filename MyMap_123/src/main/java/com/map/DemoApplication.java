@@ -11,5 +11,6 @@ public class DemoApplication {
 		System.out.println("error");
 		System.out.println("success!");
 		System.out.println("please");
+		System.out.println("hi");
 		}
 }
